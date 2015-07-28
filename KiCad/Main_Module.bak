@@ -28,8 +28,8 @@ LIBS:opto
 LIBS:atmel
 LIBS:contrib
 LIBS:valves
-LIBS:FANCRT-cache
-EELAYER 27 0
+LIBS:Main_Module-cache
+EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -44,10 +44,10 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L ATMEGA88-A IC?
+L ATMEGA88-A IC1
 U 1 1 55B482E8
 P 2050 6050
-F 0 "IC?" H 1300 7300 40  0000 L BNN
+F 0 "IC1" H 1300 7300 40  0000 L BNN
 F 1 "ATMEGA88-A" H 2500 4650 40  0000 L BNN
 F 2 "TQFP32" H 2050 6050 30  0000 C CIN
 F 3 "" H 2050 6050 60  0000 C CNN
@@ -955,7 +955,7 @@ Wire Wire Line
 	5200 2950 5200 2900
 Wire Notes Line
 	550  1950 550  4250
-Text Notes 750  4100 0    60   ~ 0
+Text Notes 750  4200 0    60   ~ 0
 Current sense resostor voltage amplifier\nVoltage Gain depending of Rsense value
 $Comp
 L R R12
@@ -1266,10 +1266,10 @@ Wire Notes Line
 Wire Notes Line
 	5500 4250 550  4250
 $Comp
-L 7805 U?
+L 7805 U2
 U 1 1 55B4C891
 P 1500 1000
-F 0 "U?" H 1650 804 60  0000 C CNN
+F 0 "U2" H 1650 804 60  0000 C CNN
 F 1 "7805" H 1500 1200 60  0000 C CNN
 F 2 "" H 1500 1000 60  0000 C CNN
 F 3 "" H 1500 1000 60  0000 C CNN
